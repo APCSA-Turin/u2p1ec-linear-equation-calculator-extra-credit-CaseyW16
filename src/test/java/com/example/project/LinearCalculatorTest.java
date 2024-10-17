@@ -15,7 +15,7 @@ public class LinearCalculatorTest {
     void testMidpoint(){
         LinearCalculator c = new LinearCalculator("(3,4)","(3,-4)");
         String expectedOutput = "The midpoint of this line is: (3.0,0.0)";
-        String studentOutput = c.Midpoint();
+        String studentOutput = c.midpoint();
         assertEquals(expectedOutput,studentOutput);
     }
 
@@ -38,7 +38,7 @@ public class LinearCalculatorTest {
         studentOutput += "\nThe y-intercept of the line is: " + c.yInt();
         studentOutput += "\nThe distance between the two points is: " + c.distance();
         studentOutput += "\n"+c.findSymmetry();
-        studentOutput += "\n"+c.Midpoint();
+        studentOutput += "\n"+c.midpoint();
      
         assertEquals(expectedOutput,studentOutput);
     }
@@ -62,7 +62,7 @@ public class LinearCalculatorTest {
         studentOutput += "\nThe y-intercept of the line is: " + c.yInt();
         studentOutput += "\nThe distance between the two points is: " + c.distance();
         studentOutput += "\n"+c.findSymmetry();
-        studentOutput += "\n"+c.Midpoint();
+        studentOutput += "\n"+c.midpoint();
      
         assertEquals(expectedOutput,studentOutput);
     }
