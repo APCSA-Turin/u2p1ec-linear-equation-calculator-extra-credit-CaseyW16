@@ -29,41 +29,34 @@ public class LinearCalculator{
     public int getX1() {
         return x1;
     }
-
     public int getY1() {
         return y1;
     }
-
     public int getX2() {
         return x2;
     }
-
     public int getY2() {
         return y2;
     }
-
     public void setX1(int newX1) {
         x1 = newX1; 
     }
-
     public void setY1(int newY1) {
         y1 = newY1;
     }
-
     public void setX2(int newX2) {
         x2 = newX2;
     }
-
     public void setY2(int newY2) {
         y2 = newY2;
     }
 
-    // xDiff() -> returns the int distance between the two points' x values
+    // xDiff() -> returns the int difference between the two points' x values
     public int xDiff() {
         return x2 - x1;
     }
 
-    // yDiff() -> returns the int distance between the two points' y values
+    // yDiff() -> returns the int difference between the two points' y values
     public int yDiff() {
         return y2 - y1;
     }
